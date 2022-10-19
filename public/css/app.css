@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Righteous');
+@import url('http://fonts.cdnfonts.com/css/nuku-nuku');
+
+body {
+  background: url(http://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/25334258/7b9147d80602be3d5f65f4cce33de39d42399499.jpg) no-repeat center center fixed;
+  margin: 0;
+  font-family: 'Nuku Nuku', sans-serif;
+}
+
+h1 {
+  /* font-family: 'Righteous', cursive; */
+  display: flex;
+  flex-direction: column;
+  background: rgba(248, 239, 229, .3);
+  margin:0;
+  margin-bottom: .5em;
+  padding: 1em;
+  text-align: center;
+  font-size: 35px;
+  color: #5c4343;
+}
+
+a {
+  color: #e0a3a3;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.5em;
+  background: rgba(248, 239, 229, .3);
+}
+
+a:hover {
+  color: ghostwhite;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+}
+
+li {
+  list-style: none;
+  padding: .5em;
+  position: relative;
+  left: 50px;
+}
+
+li a {
+  color: #e9c1c1;
+}
+
+input[type=text] {
+  padding: .3em;
+}
+
+input[type=submit] {
+  padding: .3em;
+  color: black;
+  background: #e9c1c1;
+  font-size: 1em;
+  border-radius: 10%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.card {
+  text-align: center;
+  color: #5c4343;
+  width: 400px;
+  margin: 0 auto;
+  padding: 0;
+  background: rgba(248, 239, 229, .6);
+}
